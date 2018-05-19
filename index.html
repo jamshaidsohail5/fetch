@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+<head>
+	<title>Fetch</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700" rel="stylesheet">
+	<link rel="icon" type="image/png" href="https://github.com/hussamh10/fetch/raw/master/res/logo.png">
+	<style>
+	
+		* {
+			font-family: 'Roboto Condensed', sans-serif;
+		}
+		
+		#header {
+			text-align: center;
+			border-bottom: solid 1px #ddd;
+			padding-bottom: 10px;
+		}
+		
+		#header h1, #header h2 {
+			margin: 0;
+			padding: 0;
+		}
+		
+		#content {
+			width: 80%;
+			margin-left: 10%;
+			margin-top: 50px;
+			font-size: 1.3em;
+		}
+		
+		#cheatsheet {
+			max-width: 1000px;
+			width: 100%;
+		}
+		
+		table {
+			display: table;
+			border: solid 2px black;
+		}
+		
+		tr {
+			display: table-row;
+		}
+		
+		td {
+			display: table-cell;
+		}
+		
+		#classes td {
+			border: solid 1px black;
+		}
+		
+		#classes tr:first-child {
+			font-weight: bold;
+			text-align: center;
+		}
+		
+		#classes tr:first-child td {
+			padding: 10px;
+			background: rgb(36,151,177) !important;
+			color: white;
+		}
+		
+		#classes td:first-child {
+			text-align: center;
+			font-weight: bold;
+		}
+		#classes {
+			margin: 0 auto;
+		}
+		
+		#footer {
+			margin-top: 50px;
+		}
+		
+		.center {
+			text-align: center;
+		}
+		
+	
+	</style>
+</head>
+<body>
+<div id="header">
+	<img src="https://github.com/hussamh10/fetch/raw/master/res/logo.png"  id="logo" />
+	<h1>Fetch</h1>
+	<h2>A fuzzy file and folder finder.</h2>
+</div>
+<div id="content">
+	Fetch allows you to find and open any file or folder on your computer. By indexing your directories and using approximate query matching, Fetch allows you to access your files at a much higher speed than the built-in Windows search. You can also search within subdirectories and for files based on their type.
+	
+	<h2>Features</h2>
+	<ul>
+		<li>Search files and folders</li>
+		<li>Approximate query matching</li>
+		<li>OS wide indexing</li>
+		<li>Periodic indexing</li>
+		<li>Ranked results</li>
+		<li>Search using file types</li>
+		<li>Subdirectory search</li>
+	</ul>
+	
+	<h2>Usage</h2>
+    <ul>
+		<li>Follow this cheatsheet and you'll know how to use Fetch within seconds.</li>
+	</ul>
+	<div style="text-align: center; width: 100%;">
+		<img id="cheatsheet" src="https://github.com/hussamh10/fetch/raw/master/res/cs.png" />
+	</div>
+
+	
+	<h2>Supported classes for file search</h2>
+
+    <ul>
+		<li>Type the corresponding class name at the start of your approximate query to search for files of that type.</li>
+	</ul>
+	
+	<table id="classes">
+		<tr>
+			<td>Class name</td>
+			<td>File types</td>
+		</tr>
+		<tr>
+			<td>.code</td>
+			<td>.py .java .cpp .html .cs .css .rb .mat .hdf5 .rb .go .c .asm .h .vb</td>
+		</tr>
+		<tr>
+			<td>.pic</td>
+			<td>.bmp .png .jpg .jpeg .gif .tiff .psd .svg .ico</td>
+		</tr>
+		<tr>
+			<td>.doc</td>
+			<td>.pdf .ppt .pptx .docx .odt .txt .xlsx .htm .csv .xml .odp .rtf .doc .tex</td>
+		</tr>
+		<tr>
+			<td>.arch</td>
+			<td>.rar .gz .zip .7z .pkg .deb .z</td>
+		</tr>
+		<tr>
+			<td>.audio</td>
+			<td>.pcm .wav .aiff .mp3 .aac .ogg .wma .flac .alac .midi</td>
+		</tr>
+		<tr>
+			<td>.video</td>
+			<td>.mp4 .avi .mkv .flv .mpg .wmv .vob .m4v .3gp</td>
+		</tr>
+	</table>
+
+	<h2>Installation</h2>
+	<ol>
+		<li>Download and install the <a target="_blank" 
+href="https://github.com/hussamh10/fetch/releases/latest">latest release</a> for Windows.</li>
+		<li>Run Fetch.</li>
+		<li>Wait for Fetch to finish indexing.</li>
+	</ol>
+    
+
+	<h2>Project team</h2>
+	<ul>
+		<li><a href="https://github.com/haroon96">Muhammad Haroon (Haroon96)</a></li>
+		<li><a href="https://github.com/hussamh10">Hussam Habib (hussamh10)</a></li>
+	</ul>
+	
+	<h2>Donate</h2>
+	<ul>
+		<li>
+			<b>BTC:</b> <span style="word-wrap: break-word;">1E4yS81wSgFMZ2TVrGLLK2fwpQryr9wqZ3</span>
+		</li>
+	</ul>
+	
+	<div id="footer" class="center">
+		<a target="_blank" href="https://github.com/hussamh10/fetch">
+			<img width="90px" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png" />
+		</a>
+	</div>
+    
+</div>
+</body>
+</html>
